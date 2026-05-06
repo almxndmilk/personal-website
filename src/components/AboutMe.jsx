@@ -10,13 +10,21 @@ export const AboutSection = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold"> A Student </h3>
+                    <h3 className="text-2xl font-semibold"> Student, Leader, Developer </h3>
                     <p className="text-muted-foreground">
-                        Hello! My name is Samantha and I'm currently a second year student studying at
+                        Hello! My name is Samantha and I'm currently a third-year student studying Computing Science and FinTech at
                         Simon Fraser University. 
                     </p>
+
                     <p className="text-muted-foreground">
-                        blah blah blah
+                        I’ve always been interested in how technology can improve everyday experiences, 
+                        especially in areas like finance, design, and digital products.
+                    </p>
+
+                    <p className="text-muted-foreground">
+                        Outside of school, I enjoy working on creative projects, learning new skills, and collaborating with others. 
+                        Through leadership roles, work experience, and personal projects, I’m continuing to grow both technically and 
+                        personally.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,8 +43,8 @@ export const AboutSection = () => {
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg"> Education </h4>
                                 <p className="text-muted-foreground">
-                                    Second-year Computer Science student at Simon Fraser University, 
-                                    enrolled in the SFU–Zhejiang University dual degree program.
+                                    Third-year Computing Science student at Simon Fraser University, 
+                                    enrolled in the SFU–Zhejiang University Dual Degree Program.
                                 </p>
                             </div>
                         </div>
@@ -52,7 +60,7 @@ export const AboutSection = () => {
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg"> Experience </h4>
                                 <p className="text-muted-foreground">
-                                    Involved as a student leader, part-time barista, and a technical 
+                                    Involved as a student leader, part-time barista, and a 
                                     volunteer, with a focus on teamwork and organization.
                                 </p>
                             </div>

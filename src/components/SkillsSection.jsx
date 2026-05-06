@@ -10,7 +10,7 @@ const skills = [
     { name: "JavaScript", level: 100, category: "languages" },
     { name: "TypeScript", level: 100, category: "languages" },
     { name: "HTML/CSS", level: 100, category: "languages" },
-    { name: "Unified Modeling Language", level: 100, category: "languages" },
+    { name: "UML", level: 100, category: "languages" },
     
     // Tools
     { name: "Git/Github", level: 100, category: "tools" },

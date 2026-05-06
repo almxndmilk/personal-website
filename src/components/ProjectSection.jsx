@@ -1,39 +1,49 @@
-
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, ArrowRight } from "lucide-react";
 
 const projects = [
     {
         id: 1,
-        title: "Jobly",
+        title: "Meowmino's Delivery",
         description:
-            "Job hunting is exhausting. We saw peers spending hours tweaking resumes for each application, often missing keywords that get them past automated screening. We wanted to make resume optimization as simple as using spell-check.",
-        image: "/projects/jobly.png",
-        tags: ["React", "TailwindCSS", "Typescript", "Supabase"],
-        demoUrl: "#",
-        githubUrl: "#",
+            "Meowmino's Delivery is a 2D arcade style game featuring a point system, enemies, animations, and core gameplay mechanics.",
+        image: "/projects/meowminos.png",
+        tags: ["Java", "LibGDX", "Maven", "Waterfall"],
+        demoUrl: "https://www.youtube.com/watch?v=gFfb3DsHz78",
+        githubUrl: "https://github.com/almxndmilk/meowminos-delivery",
 
     },
-
     {
         id: 2,
+        title: "Jobly",
+        description:
+            "Job hunting is exhausting. We saw peers spending hours tweaking resumes for each application. We wanted to make resume optimization as simple as using spell-check.",
+        image: "/projects/jobly.png",
+        tags: ["React", "TailwindCSS", "Typescript", "Supabase"],
+        demoUrl: "https://jobly-website-five.vercel.app/",
+        githubUrl: "https://github.com/almxndmilk/jobly-website",
+
+    },
+
+    {
+        id: 3,
         title: "Tour Story",
         description:
-            "Budget friendly tourism, just take a photo of a tourist attraction and Gemini AI will analyze an image, then a story will be returned and shown to the user. The app can then narrate the story to the user.",
+            "Budget friendly tourism, just take a photo of a tourist attraction and Gemini AI will analyze an image, then a story will be returned, shown, and narrated to the user.",
         image: "/projects/tourstory.png",
         tags: ["ExpoGo", "Typescript", "JavaScript"],
-        demoUrl: "#",
-        githubUrl: "#",
+        demoUrl: "https://github.com/almxndmilk/storm-hacks",
+        githubUrl: "https://github.com/almxndmilk/storm-hacks",
 
     },
     {
-        id: 3,
+        id: 4,
         title: "Study Café",
         description:
             "Study Café is a productivity web app designed to help students stay focused and develop effective study habits in a distraction-free environment.",
         image: "/projects/studycafe.png",
         tags: ["JavaScript", "HTML/CSS"],
-        demoUrl: "#",
-        githubUrl: "#",
+        demoUrl: "https://almxndmilk.github.io/study-cafe/",
+        githubUrl: "https://github.com/almxndmilk/study-cafe",
 
     },
 ]
@@ -72,13 +82,12 @@ export const ProjectSection = () => {
                                         </span>
                                     ))}
                                 </div>
-                            </div>
 
                             <h3 className="text-xl font-semibold mb-1"> {project.title} </h3>
                             <p className="text-muted-foreground text-sm mb-4">
                                 {project.description}
                             </p>
-                            <div className="flex justify-between item-center">
+                            <div className="flex justify-between items-center">
                                     <div className="flex space-x-3">
                                         <a 
                                             href={project.demoUrl} 
@@ -94,11 +103,20 @@ export const ProjectSection = () => {
                                             <Github size={20} /> 
                                         </a>
                                     </div>
+                                </div>
                             </div>
                         </div>
                     ))}
-
                 </div>
+                
+                <div className="text-center mt-12">
+                    <a className="button w-fit flex items-center mx-auto gap-2"
+                    target="_blank" 
+                    href="https://github.com/almxndmilk">
+                        Check Out My GitHub <ArrowRight size={16} />
+                    </a>
+                </div>
+            
             </div>
         </section>
     );
