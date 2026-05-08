@@ -5,8 +5,8 @@ import { DraggableContainer } from "./DraggableContainer";
 export function CardStack({
   items,
   children,
-  containerClassName = "relative h-90 w-100",
-  cardClassName = "absolute h-90 w-100 cursor-grab",
+  containerClassName = "relative h-70 w-80",
+  cardClassName = "absolute h-70 w-80 cursor-grab",
   stackConfig = { rotation: 6, scale: 0.05 },
 }) {
   const [cards, setCards] = useState(items);
