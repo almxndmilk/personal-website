@@ -2,6 +2,16 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 
 const projects = [
     {
+        id: 2,
+        title: "Unix Shell",
+        description:
+            "A custom Unix shell built in C supporting foreground and background process execution, built-in commands (cd, pwd, exit, help), a 10-command history with re-execution via ! and !!, and SIGINT handling.",
+        image: "/projects/shell.png",
+        tags: ["C", "POSIX System Calls", "CMake"],
+        demoUrl: "https://github.com/almxndmilk",
+        githubUrl: "https://github.com/almxndmilk",
+    },
+    {
         id: 1,
         title: "Meowmino's Delivery",
         description:
@@ -13,7 +23,7 @@ const projects = [
 
     },
     {
-        id: 2,
+        id: 3,
         title: "Jobly",
         description:
             "Job hunting is exhausting. We saw peers spending hours tweaking resumes for each application. We wanted to make resume optimization as simple as using spell-check.",
@@ -25,7 +35,7 @@ const projects = [
     },
 
     {
-        id: 3,
+        id: 4,
         title: "Tour Story",
         description:
             "Budget friendly tourism, just take a photo of a tourist attraction and Gemini AI will analyze an image, then a story will be returned, shown, and narrated to the user.",
@@ -36,7 +46,7 @@ const projects = [
 
     },
     {
-        id: 4,
+        id: 5,
         title: "Study Café",
         description:
             "Study Café is a productivity web app designed to help students stay focused and develop effective study habits in a distraction-free environment.",
