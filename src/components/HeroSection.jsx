@@ -47,7 +47,7 @@ export const HeroSection = () => {
                             </a>
                             
                             <a 
-                                href="/SamanthaGanResumeSpring2026.pdf"
+                                href="/SamanthaGanResumeSummer2026.pdf"
                                 className="button"
                                 target="_blank" 
                                 rel="noopener noreferrer"
